@@ -1,0 +1,112 @@
+{
+  "period": "2025/04",
+  "total_income": 810,
+  "total_expenditure": -2620,
+  "transactions": [
+    {
+      "date": "2025-04-30",
+      "amount": -130,
+      "content": "Utilities"
+    },
+    {
+      "date": "2025-04-29",
+      "amount": -95,
+      "content": "Dining"
+    },
+    {
+      "date": "2025-04-28",
+      "amount": -60,
+      "content": "Transport"
+    },
+    {
+      "date": "2025-04-27",
+      "amount": -220,
+      "content": "Rent"
+    },
+    {
+      "date": "2025-04-26",
+      "amount": -140,
+      "content": "Groceries"
+    },
+    {
+      "date": "2025-04-25",
+      "amount": 410,
+      "content": "Gift"
+    },
+    {
+      "date": "2025-04-24",
+      "amount": -260,
+      "content": "Travel"
+    },
+    {
+      "date": "2025-04-23",
+      "amount": -85,
+      "content": "Subscription"
+    },
+    {
+      "date": "2025-04-22",
+      "amount": -115,
+      "content": "Gym"
+    },
+    {
+      "date": "2025-04-21",
+      "amount": -310,
+      "content": "Shopping"
+    },
+    {
+      "date": "2025-04-20",
+      "amount": -65,
+      "content": "Books"
+    },
+    {
+      "date": "2025-04-19",
+      "amount": -95,
+      "content": "Internet"
+    },
+    {
+      "date": "2025-04-18",
+      "amount": -125,
+      "content": "Utilities"
+    },
+    {
+      "date": "2025-04-17",
+      "amount": -85,
+      "content": "Dining"
+    },
+    {
+      "date": "2025-04-16",
+      "amount": -55,
+      "content": "Transport"
+    },
+    {
+      "date": "2025-04-15",
+      "amount": -210,
+      "content": "Rent"
+    },
+    {
+      "date": "2025-04-14",
+      "amount": -130,
+      "content": "Groceries"
+    },
+    {
+      "date": "2025-04-13",
+      "amount": 400,
+      "content": "Gift"
+    },
+    {
+      "date": "2025-04-12",
+      "amount": -250,
+      "content": "Travel"
+    },
+    {
+      "date": "2025-04-11",
+      "amount": -80,
+      "content": "Subscription"
+    },
+    {
+      "date": "2025-04-10",
+      "amount": -110,
+      "content": "Gym"
+    }
+  ]
+}
