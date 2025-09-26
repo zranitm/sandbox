@@ -111,12 +111,11 @@ func readTransactionsCSV(r io.Reader) ([]Transaction, error) {
 					return
 				}
 				out = append(out, tx)
-			case <-ctx.Done():
-				return
 			}
 		}
 	}()
 
+	// producer
 	wg.Go(func() error {
 		for {
 			rec, err := cr.Read()
@@ -146,10 +145,11 @@ func readTransactionsCSV(r io.Reader) ([]Transaction, error) {
 		return nil
 	})
 
-	if err := wg.Wait(); err != nil {
+	err = wg.Wait()
+	close(results)
+	if err != nil {
 		return nil, err
 	}
-	close(results)
 
 	wgResult.Wait()
 	return out, nil
